@@ -1,0 +1,40 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding-top: 1rem;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  margin: 0 15px;
+  color: grey;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer p {
+  margin: none;
+}
+
+footer a:hover {
+  color: #d6b4fc;
+}
+
+.footer-credit {
+  font-size: 0.8rem;
+  color: grey;
+}
+
+.footer-credit a {
+  margin: 4px;
+}

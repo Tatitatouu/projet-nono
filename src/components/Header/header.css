@@ -1,0 +1,83 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: Oswald, sans-serif;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 80px;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative; /* Nécessaire pour le menu mobile */
+  z-index: 1000; /* Assure que le header est toujours au-dessus */
+  background-color: #fff; /* Assure un fond blanc en responsive */
+}
+
+.logo {
+  width: 130px;
+  height: auto; /* Maintenir les proportions */
+}
+
+/* Navigation */
+.nav {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+/* Liens */
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  color: #d6b4fc;
+}
+
+.active-link {
+  font-weight: bold;
+  color: #000;
+  text-decoration: underline;
+}
+
+/* Menu mobile */
+.menu-icon {
+  display: none; /* Caché par défaut */
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .nav {
+      display: none; /* Cache la navigation par défaut */
+      flex-direction: column; /* Menu en colonne */
+      position: absolute;
+      top: 80px; /* Position sous le header */
+      right: 0;
+      background-color: #fff;
+      width: 100%;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+  }
+
+  .nav.show {
+      display: flex; /* Affiche le menu quand actif */
+  }
+
+  .menu-icon {
+      display: block; /* Affiche l'icône du menu */
+  }
+
+  .logo {
+      width: 100px; /* Réduction du logo pour petits écrans */
+  }
+}

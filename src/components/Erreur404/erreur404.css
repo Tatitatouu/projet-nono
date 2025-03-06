@@ -1,0 +1,101 @@
+/* Conteneur principal */
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 80vh;
+  padding: 5em 0;
+}
+
+/* Conteneur du titre */
+.title-container {
+  position: relative;
+  text-align: center;
+}
+
+/* Style du titre */
+.not-found-title {
+  font-size: 120px;
+  font-weight: bold;
+  color: #d6b4fc; /* Ton code couleur */
+  margin-bottom: 20px;
+  animation: bounce 1s infinite alternate;
+}
+
+/* Style du message */
+.message-container {
+  max-width: 400px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+/* Message d'erreur */
+.not-found-message {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #4a4a4a;
+}
+
+/* Conteneur des actions */
+.action-container {
+  margin-top: 20px;
+}
+
+/* Lien retour à l'accueil */
+.back-home-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #d6b4fc;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.back-home-link:hover {
+  background-color: #bfa2e0;
+  transform: scale(1.05);
+}
+
+/* Conseil du jour */
+.advice {
+  font-size: 14px;
+  color: #777;
+  margin-top: 20px;
+}
+
+/* Pied de page avec les icônes */
+.icon-footer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Icônes du pied de page */
+.footer-icon {
+  color: #d6b4fc;
+  animation: bounce 1s infinite alternate;
+}
+
+.footer-icon-delay {
+  animation-delay: 0.1s;
+}
+
+.footer-icon-delay-2 {
+  animation-delay: 0.2s;
+}
+
+/* Animation bounce */
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
