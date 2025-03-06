@@ -98,3 +98,9 @@
     height: 20px;
   }
 }
+
+@media (min-width: 320px) and (max-width : 1203px) {
+  .carousel-wrapper {
+    border-radius: 8px;
+  }
+}

@@ -4,6 +4,7 @@
   color: white;
   padding: 4rem 2rem;
   text-align: center; 
+  border-radius: 8px 8px 0  0 ;
 }
 
 .services-section h2 {
@@ -121,7 +122,7 @@
   }
 }
 
-@media (min-width: 699px) and (max-width : 1140px){
+@media (min-width: 699px) and (max-width : 1140px) {
   .fitness-card-title, .service-card-title {
     font-size: 1.3em;
   }
