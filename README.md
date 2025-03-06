@@ -1,51 +1,41 @@
-🏋️‍♀️ Noémie Husson - Coach Sportive
+# 🏋️‍♀️ Noémie Husson - Coach Sportive Diplomée 
 
-📖 Description
+## 📖 Description
+Site développer et déployer pour une amie coach sportive afin d'améliorer sa visibilité et informer de ses compétences.
 
-Site développer et déploier pour une coach sportive dans l'objectif d'améliorer sa visibilité et informer sur les services qu'elle propose.
+## ✨ Fonctionnalités principales
+- 🏃‍♂️ Présentation des services de coaching
+- 📩 Formulaire de contact afin de l'a contacter
+- 🌟 Témoignages et avis clients
+- 📝 Section À propos 
+- 📱 Interface responsive et optimisée
 
-✨ Fonctionnalités principales
+## 🛠 Technologies utilisées
+- ⚛️ React.js
+- 🚦 React Router (pour la navigation)
+- 🎨 CSS (pour le design)
+- ✅ Formspree (formulaire de contact)
+- 🌍 GitHub Pages
 
-🏃‍♂️ Présentation des services de coaching
+## 🚀 Installation et exécution
 
-📩 Formulaire de contact pour prendre contact avec elle 
+1. **Cloner le projet**
+   ```bash
+   git clone https://github.com/ton-repo/coachfit.git
+   cd projet-nono
+   ```
 
-🌟 Témoignages et avis clients
+2. **Installer les dépendances**
+   ```bash
+   npm install
+   ```
 
-📝 Une section à propos 
+3. **Lancer le projet en local**
+   ```bash
+   npm start
+   ```
 
-📱 Interface responsive et optimisée
+Le site sera accessible sur `http://localhost:3000/`
 
-🛠 Technologies utilisées
-
-⚛️ React.js
-
-🚦 React Router (pour la navigation)
-
-🎨 CSS (pour le design)
-
-✅ Formspree (pour le formulaire de contact)
-
-🌍 GitHub Pages (pour le déploiement)
-
-🚀 Installation et exécution
-
-Cloner le projet
-
-git clone https://github.com/ton-repo/coachfit.git
-cd projet-nono
-
-Installer les dépendances
-
-npm install
-
-Lancer le projet en local
-
-npm start
-
-Le site sera accessible sur http://localhost:3000/
-
-🌐 Déploiement
-
+## 🌐 Déploiement
 Le site est déployé sur GitHub Pages
-
