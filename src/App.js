@@ -4,7 +4,8 @@ import Home from "./pages/home";
 import About from "./pages/about";
 import Erreur404 from "./pages/erreur404";
 import Contact from "./pages/contact";
-import '@vercel/analytics';
+import { Analytics } from '@vercel/analytics/react';
+
 
 const App = () => {
     return (
@@ -16,6 +17,7 @@ const App = () => {
                 <Route path="/*" element={<Erreur404 />} />
                 <Route path="/transfo-avis" element={<Erreur404 />} />
             </Routes>
+            <Analytics />
         </Router>
     );
 };
