@@ -121,12 +121,24 @@
   }
 }
 
-@media (max-width: 768px) {
-  .services-section h2 {
-    font-size: 25px;
+@media (min-width: 699px) and (max-width : 1140px){
+  .fitness-card-title, .service-card-title {
+    font-size: 1.3em;
+  }
+
+  .fitness-card-description, .service-card-description {
+    font-size: 0.7em;
+  }
+
+  .feature-active {
+    font-size: 0.8em;
   }
 
   .services-subtitle {
-    font-size: 16px;
+    font-size: 1.2em;
+  }
+
+  .services-section h2, .fitness-title {
+    font-size: 2em;
   }
 }

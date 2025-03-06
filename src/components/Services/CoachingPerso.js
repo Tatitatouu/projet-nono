@@ -30,7 +30,7 @@ const Services = () => {
       description: 'Un entraînement structuré pour renforcer votre endurance, développer votre puissance et affiner votre mental.',
       features: [
         'Maîtriser les épreuves HYROX',
-        'Adapté à tous les niveaux, débutants ou confirmés',
+        'Adapté à tous les niveaux',
         'Boostez vos performances physiques',
         'Gagner en confiance et en énergie'
       ],
