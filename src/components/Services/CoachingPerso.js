@@ -26,10 +26,10 @@ const Services = () => {
       icon: <FaUserAlt />,
     },
     {
-      title: 'HYROX : Performance, puissance, progression 🔝',
+      title: 'HYROX 🔝',
       description: 'Un entraînement structuré pour renforcer votre endurance, développer votre puissance et affiner votre mental.',
       features: [
-        'Maîtriser les épreuves HYROX : sled push, ergomètre, wall ball...',
+        'Maîtriser les épreuves HYROX',
         'Adapté à tous les niveaux, débutants ou confirmés',
         'Boostez vos performances physiques',
         'Gagner en confiance et en énergie'
