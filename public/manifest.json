@@ -3,7 +3,7 @@
   "short_name": "Noémie",
   "icons": [
     {
-      "src": "%PUBLIC_URL%/logo-full-black.webp",
+      "src": "/public/assets/logoNo/logo-full-black.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }
