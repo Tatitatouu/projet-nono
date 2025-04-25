@@ -4,6 +4,7 @@ import Carousel from "../components/Carousel/carousel";
 import FitnessServices from "../components/Services/CoursCo&SGT";
 import Footer from "../components/Footer/footer";
 import Services from "../components/Services/CoachingPerso";
+import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Services />
             <FitnessServices />
             <Footer />
+            <ScrollToTop />
         </div>
     );
 };
